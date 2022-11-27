@@ -84,7 +84,7 @@
         <div class="h-full flex flex-col items-center text-center">
           <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="first.jpg">
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-gray-900">T.S Hayagriva Kishan</h2>
+            <h2 class="title-font font-medium text-lg text-gray-900">T.S.Hayagriva Kishan</h2>
             <h3 id="role" class="text-gray-500 mb-3">Database and Php</h3>
             <p class="mb-4">Made the login in page and connected the data base</p>
             <span class="inline-flex">
