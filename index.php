@@ -26,7 +26,7 @@
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="#">HOME</a></li>
-                    <li><a href="aboutus.php">HumApkeHainKon</a></li>
+                    <li><a href="about_us.php">HumApkeHainKon</a></li>
                     <li><a href="#">EXPLORE</a></li>
                 </ul>
             </div>

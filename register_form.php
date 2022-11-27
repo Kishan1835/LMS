@@ -44,14 +44,18 @@ if(isset($_POST['submit'])){
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" herf ="css/style2.css">
 
 </head>
 <body>
-   
+     
 <div class="form-container">
 
    <form action="" method="post">
-      <h3>register now</h3>
+      <img src="logo2.jpg" alt="back">
+      <!-- <a href="register_form.php"><img src="logo2.jpg" alt=""></a> -->
+      
+   <h3>register now</h3>
       <?php
       if(isset($error)){
          foreach($error as $error){
@@ -59,6 +63,7 @@ if(isset($_POST['submit'])){
          };
       };
       ?>
+      
       <input type="text" name="name" required placeholder="enter your name">
       <input type="email" name="email" required placeholder="enter your email">
       <input type="password" name="password" required placeholder="enter your password">

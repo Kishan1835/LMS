@@ -1,0 +1,20 @@
+body {
+    background: linear-gradient(to right,#86aeee, #e59ffc);
+}
+
+#title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10vh;
+}
+
+#para {
+    color: #333;
+}
+
+.mb-4 {
+    color: #333;
+}
+
+#role {
+    color: #313131
+}
