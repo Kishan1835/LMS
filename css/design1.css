@@ -7,9 +7,9 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(3, 9, 45, 0.2), rgba(3, 9, 45, 0.2)), url(https://images.shiksha.com/mediadata/images/1642479473phpa7cuBf.jpeg);
+    background-image: linear-gradient(rgba(3, 9, 45, 0.0), rgba(3, 9, 45, 0.0)), url(https://media.glassdoor.com/l/28/f7/e1/70/bikham-s-mohali-office.jpg);
     background-position: bottom;
-    background-size: cover;
+    background-size: contain;
     position: relative;
 }
 
@@ -36,14 +36,14 @@ nav img {
 
 .nav-links ul li {
     list-style: none;
-    display: list-item;
+    display: inline-block;
     padding: 8px 12px;
     position: relative;
     left: 25px;
 }
 
 .nav-links ul li a {
-    color: rgb(101, 101, 244);
+    color: orange;
     text-decoration: none;
     font-size: 17px;
 }
@@ -67,7 +67,7 @@ nav img {
     color: ivory;
     position: absolute;
     top: 65%;
-    left: 5%;
+    left: 9%;
     text-align: start;
 }
 
@@ -76,9 +76,10 @@ nav img {
 }
 
 .textbox p {
-    margin: 10px 0 20px;
-    font-size: 14px;
+    margin: 10px 0 10px;
+    font-size: 12px;
     color: ivory;
+    text-align: start;
 }
 
 .button {
@@ -104,14 +105,30 @@ nav .fa {
 
 @media(max-width: 700px) {
     .textbox h1 {
-        font-size: 25px;
+        font-size: 35px;
+        text-align: center;
+    }
+    .textbox p {
+        text-align: center;
+    }
+    .button {
+        align-items: center;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        color: ivory;
+        border: 2px solid ivory;
+        padding: 12px 34px;
+        font-size: 13px;
+        background: transparent;
+        position: cursor;
     }
     .nav-links ul li {
-        display: block;
+        display: inline-block;
     }
     .nav-links {
         position: absolute;
-        background: rgb(101, 101, 244);
+        background: rgb(243, 243, 243);
         height: 100vh;
         width: 200px;
         top: 0;
@@ -119,7 +136,7 @@ nav .fa {
         text-align: left;
         z-index: 2;
     }
-    nav .fa {
+    nav.fa-solid {
         display: block;
         color: ivory;
         margin: 10px;
@@ -148,9 +165,14 @@ h2 {
     color: rgb(101, 101, 244);
 }
 
+.abc {
+    font-size: 17px;
+}
+
 p {
     color: rgb(101, 101, 244);
-    font-size: 14px;
+    /* font-size: 50px; */
+    /* size: 50px; */
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
@@ -176,6 +198,7 @@ h3 {
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
+    color: blue;
 }
 
 .book1-col:hover {
