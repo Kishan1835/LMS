@@ -35,6 +35,14 @@ if (!isset($_SESSION['admin_name'])) {
          <a href="login_form.php" class="btn">login</a>
          <a href="register_form.php" class="btn">register</a>
          <a href="logout.php" class="btn">logout</a>
+
+          <!-- UPLOAD CODE  -->
+
+         <form action="upload.php" method="post" enctype="multipart/form-data">
+            Select File to upload: <input type="file" name="filetoupload" id="filetoupload">
+            <input type="submit" value="upload File" name="submit">
+         </form>
+
       </div>
       <!-- <a href="dbms.pdf" class="button"> click here</a> -->
    </div>

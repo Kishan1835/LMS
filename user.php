@@ -88,6 +88,7 @@
         <p class="abc">In computer engineering, computer architecture is a description of the structure of a computer system made from component parts. It can sometimes be a high-level description that ignores details of the implementation. </p>
         <div class="row4">
             <div class="book4-col">
+                <!-- <php $a=array(); $b=opendir("upload"); while(($c=readdir($b))!==FALSE) echo $c; ?> -->
                 <h3>Computer System Architecture</h3>
                 <p> <a href="https://faculty.tarleton.edu/agapie/documents/cs_343_arch/01_Ch1_Ch2.pdf">CLICK HERE TO OPEN PDF</a></p>
             </div>
@@ -104,7 +105,9 @@
                 <p> <a href="http://mdudde.net/books/BCA/bca%20-%20III%20Sem/bca-201-3rd-Computer%20System%20Architecture.pdf">CLICK HERE TO OPEN PDF</a></p>
             </div>
         </div>
+
     </section>
+
 </body>
 
 </html>
